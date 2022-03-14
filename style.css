@@ -32,7 +32,8 @@ body {
     padding: 10rem 40rem;
 }
 main {
-    border-radius: 1rem
+    border-radius: 1rem;
+    overflow: hidden;
 }
 .car {
     padding: 4rem
