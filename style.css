@@ -31,6 +31,9 @@ ADDITIONAL STYLES
 body {
     padding: 10rem 40rem;
 }
+main {
+    border-radius: 1rem
+}
 .car {
     padding: 4rem
 }
@@ -54,7 +57,7 @@ p {
     color: hsla(0, 0%, 100%, 0.75)
 }
 h1 {
-    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Big Shoulders Display', sans-serif;
     font-size: 3.2rem;
     font-weight: 700;
     margin-bottom: 4rem;
