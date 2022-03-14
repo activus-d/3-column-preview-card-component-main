@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%
+}
+/**************************************
+LAAYOUT
+**************************************/
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    width: 90rem;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+}
+footer {
+    width: 50rem
+}
+/**************************************
+ADDITIONAL STYLES
+**************************************/
+body {
+    padding: 10rem 40rem;
+}
+.car {
+    padding: 4rem
+}
+.sedan {
+    background: hsl(31, 77%, 52%);
+}
+.suv {
+    background: hsl(184, 100%, 22%)
+}
+.luxury {
+    background: hsl(179, 100%, 13%);
+}
+img {
+    margin-bottom: 4rem;
+}
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 10rem;
+    color: hsla(0, 0%, 100%, 0.75)
+}
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+    color: hsl(0, 0%, 95%);
+}
+.sedan button {
+    width: 13rem;
+    height: 4rem;
+    border: 2px solid hsl(0, 0%, 95%);
+    background: hsl(0, 0%, 95%);
+    border-radius: 10rem;
+    color:  hsl(31, 77%, 52%);
+}
+.suv button {
+    width: 13rem;
+    height: 4rem;
+    border: 2px solid hsl(0, 0%, 95%);
+    background: hsl(0, 0%, 95%);
+    border-radius: 10rem;
+    color: hsl(184, 100%, 22%);
+}
+.luxury button {
+    width: 13rem;
+    height: 4rem;
+    border: 2px solid  hsl(0, 0%, 95%);
+    background: hsl(0, 0%, 95%);
+    border-radius: 10rem;
+    color: hsl(179, 100%, 13%);
+}
+.luxury button:hover {
+    background: hsl(179, 100%, 13%);
+    cursor: pointer;
+    color: hsla(0, 0%, 100%, 0.75)
+}
+.suv button:hover {
+    background: hsl(184, 100%, 22%);
+    cursor: pointer;
+    color: hsla(0, 0%, 100%, 0.75)
+}
+.sedan button:hover {
+    background: hsl(31, 77%, 52%);
+    cursor: pointer;
+    color: hsla(0, 0%, 100%, 0.75)
+}
+/**************************************
+STYES FOR TABLET SCREEN SIZE
+**************************************/
+@media all and (max-width: 1020px) {
+    main {
+        width: 60rem;
+    }
+    .car {
+        padding: 1.5rem
+    }
+    p {
+        margin-bottom: 7rem;
+    }
+}
+/**************************************
+STYES FOR MOBILE SCREEN SIZE
+**************************************/
+@media all and (max-width: 500px) {
+    body {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        padding: 0;
+    }
+    main {
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+    body {
+        padding: 2rem;
+    }
+    .car {
+        padding: 2rem
+    }
+    p {
+        margin-bottom: 4rem;
+    }
+}
