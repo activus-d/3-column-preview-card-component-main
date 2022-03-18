@@ -10,7 +10,6 @@ html {
 LAAYOUT
 **************************************/
 body {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,7 +17,7 @@ body {
 }
 main {
     width: 90rem;
-    height: 50rem;
+    height: 47rem;
     display: flex;
     justify-content: center;
 }
@@ -122,14 +121,11 @@ STYES FOR MOBILE SCREEN SIZE
 **************************************/
 @media all and (max-width: 500px) {
     body {
-        width: 100%;
         height: auto;
-        justify-content: center;
-        padding: 0;
     }
     main {
         flex-direction: column;
-        width: 90%;
+        width: 70%;
         height: auto;
         margin: 0 auto;
     }
@@ -142,4 +138,21 @@ STYES FOR MOBILE SCREEN SIZE
     p {
         margin-bottom: 4rem;
     }
+
 }
+@media all and (max-width: 350px) {
+    main {
+        flex-direction: column;
+        width: 90%;
+    }
+}
+@media all and (max-width: 220px) {
+    main {
+        flex-direction: column;
+        width: 100%;
+    }
+    .car button {
+        width: 90%;
+    }
+}
+
